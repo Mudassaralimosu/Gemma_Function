@@ -9,13 +9,6 @@ This project demonstrates how to use **Google DeepMind's Gemma model** to perfor
 - 📅 **Google Calendar Integration** to schedule dining events
 - 🧠 **Gemma 3 Model Function Calling** to understand user intent and chain function calls automatically
 
-## 🔐 Environment Setup
-
-Create a `.env` file in the root directory with the following:
-
-```env
-GOOGLE_PLACES_API_KEY=your_google_places_api_key
-GEMINI_API=your_gemma_api_key
 
 ## 📦 Requirements
 
