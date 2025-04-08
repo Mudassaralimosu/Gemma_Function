@@ -49,37 +49,37 @@ Python, Requests, dotenv, Google API Python client
 
 
 
-# OUTPUT
+## OUTPUT
 
 
-# Gemma Response:
-#  {"name": "find_restaurants", "parameters": {"location": "NYC", "cuisine": "Japanese", "max_price": 100}}
+Gemma Response:
+{"name": "find_restaurants", "parameters": {"location": "NYC", "cuisine": "Japanese", "max_price": 100}}
 
 
-# Tool Call Parsed:
-#  {'name': 'find_restaurants', 'parameters': {'location': 'NYC', 'cuisine': 'Japanese', 'max_price': 100}}
+Tool Call Parsed:
+{'name': 'find_restaurants', 'parameters': {'location': 'NYC', 'cuisine': 'Japanese', 'max_price': 100}}
 
-# Step 1: Restaurants Found:
-# 1. Izakaya MEW - 4.5 stars, Price Level: 2
-#    Address: 53 W 35th St, New York, NY 10001, United States
-#    Open Now: No
+### Step 1: Restaurants Found:
+1. Izakaya MEW - 4.5 stars, Price Level: 2
+Address: 53 W 35th St, New York, NY 10001, United States
+Open Now: Yes
 
-# 2. Sakagura - 4.5 stars, Price Level: 3
-#    Address: 211 E 43rd St B1, New York, NY 10017, United States
-#    Open Now: No
+2. Sakagura - 4.5 stars, Price Level: 3
+Address: 211 E 43rd St B1, New York, NY 10017, United States
+Open Now: No
 
-# 3. Zuma New York - 4.3 stars, Price Level: 4
-#    Address: 261 Madison Ave, New York, NY 10016, United States
-#    Open Now: No
-
-
-# Step 2: Reservation Confirmation:
-# Reservation made at Izakaya MEW for 2 guests.
-# Reservation ID: RES-7494
-# Reservation Time: 2025-04-08T19:00:00
+3. Zuma New York - 4.3 stars, Price Level: 4
+Address: 261 Madison Ave, New York, NY 10016, United States
+Open Now: No
 
 
-# Step 3: Calendar Event Scheduled:
-# Event created: Dinner at Izakaya MEW
-# Event Time: 2025-04-08T19:00:00
-# View Event: https://www.google.com/calendar/event?eid=cWQzbGQ1YjRjazhsbXV1YTduYWYycjUyam8gbXVkYXNzYXI3ODZtb3N1QG0
+### Step 2: Reservation Confirmation:
+Reservation made at Izakaya MEW for 2 guests.
+Reservation ID: RES-7494
+Reservation Time: 2025-04-08T19:00:00
+
+
+### Step 3: Calendar Event Scheduled:
+Event created: Dinner at Izakaya MEW
+Event Time: 2025-04-08T19:00:00
+View Event: https://www.google.com/calendar/event?eid=cWQzbGQ1YjRjazhsbXV1YTduYWYycjUyam8gbXVkYXNzYXI3ODZtb3N1QG0
